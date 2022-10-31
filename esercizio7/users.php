@@ -25,7 +25,7 @@
             </tr>
         </thead>
         <tbody>
-            <h1 class="text-center text-white bg-success">I dati sono stati inseriti correttamente ecco la lista di tutti inseriti nel tempo</h1>
+            <h1 class="text-center text-white bg-success">I dati sono stati inseriti correttamente ecco la lista di tutti i dati inseriti nel tempo</h1>
             <?php foreach ($utenti as $index => $utente) {
             ?>
                 <tr>
