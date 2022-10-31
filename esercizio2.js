@@ -1,3 +1,5 @@
+//Scrivere una funzione che in input accetti un parametro y (numero) e restituisca la somma da 1 ad y.
+
 const y = 15;
 
 const sumNumbers = (y) => {

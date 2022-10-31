@@ -1,3 +1,9 @@
+/*
+Dato il seguente array, ritornare:
+● un array filtrato con le parole di lunghezza maggiore a 5.
+● un array con la prima lettera di ogni parola in maiuscolo.
+*/
+
 const fruits = ["apple", "orange", "banana", "pineapple", "kiwi"];
 
 const filterWordsLength = () => {

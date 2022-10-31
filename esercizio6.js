@@ -1,3 +1,5 @@
+// Cos’è il this in JavaScript?
+
 /*
 Il this in javascript è una keyword che fa riferimento ad un oggetto che cambia il suo contesto in base a dove viene invocato
 se viene invocato globalmente il this ci restituisce l'object Window

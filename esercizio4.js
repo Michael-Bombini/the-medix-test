@@ -1,3 +1,9 @@
+/*
+Dato il seguente array, ritornare:
+● un array con solo i nomi dei soggetti;
+● età media dei soggetti;
+*/
+
 let users = [
   {
     name: "Albert",
