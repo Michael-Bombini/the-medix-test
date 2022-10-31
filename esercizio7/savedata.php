@@ -16,6 +16,10 @@ if (($handle = fopen($percorso, "r")) !== FALSE) {
         $userAge = $data[2];
         $userEmail = $data[3];
         echo $userEmail . '<br>';
+        $sql = "INSERT INTO users (nome,cognome,eta,email) VALUES ('$userName' , '$userSurname' , '$userAge' , '$userEmail')";
+        if($connection->query($sql)){
+            header("location: ./users.php");
+        }
     }
     fclose($handle);
 }
